@@ -1,14 +1,27 @@
 <!DOCTYPE css>
 <html lang="fr">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <title>Détails du Projet</title>
+<nav class="menu">
+
+<head display: flex;>
+<link rel="stylesheet" href="style.css">
+ <title>Détails du Projet</title>
+header {
+  display: flex;
+  justify-content: space-between; /* pousse les éléments aux extrémités */
+  align-items: center; /* centre verticalement les éléments */
+  padding: 1rem 2rem;
+  background-color: white;
+}
+
 </head>
+
 <body>
-max-width: 960px;
-max-width: 0 auto;
-style="background-color:#f8f9fa">
-style="color#333"
-margin: 0;
+      max-width: 960px;
+      max-width: 0 auto;
+      style="background-color:#f8f9fa">
+      style="color#333"
+      margin: 0;
 </body>
+
+</nav>
 
